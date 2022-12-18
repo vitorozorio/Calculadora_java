@@ -13,19 +13,19 @@ public final class Operadores {
         this.multiplicacao = multiplicacao;
     }
 
-    public char adcao() {
+    public char getAdcaoadcao() {
         return adcao;
     }
 
-    public char subtracao() {
+    public char getsubtracao() {
         return subtracao;
     }
 
-    public char divisao() {
+    public char getDivisao() {
         return divisao;
     }
 
-    public char multiplicacao() {
+    public char getmultiplicacao() {
         return multiplicacao;
     }
 

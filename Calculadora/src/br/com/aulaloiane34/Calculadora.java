@@ -22,19 +22,19 @@ public class Calculadora {
          numero2 = texto.nextDouble();
 
          
-         if (operadorLogico == Operadores.adcao()){
+         if (operadorLogico == Operadores.getAdcaoadcao()){
              
              System.out.println(Calculo.soma(numero1,numero2));
              
-         } else if (operadorLogico == Operadores.subtracao()) {
+         } else if (operadorLogico == Operadores.getsubtracao()) {
              
              System.out.println(Calculo.subtracao(numero1,numero2));
              
-         } else if (operadorLogico == Operadores.multiplicacao()) {
+         } else if (operadorLogico == Operadores.getmultiplicacao()) {
 
              System.out.println(Calculo.multiplicacao(numero1,numero2)); 
              
-         } else if (operadorLogico == Operadores.divisao()) {
+         } else if (operadorLogico == Operadores.getDivisao()) {
 
              System.out.printf("%.2f",Calculo.divisao(numero1,numero2));
 
