@@ -38,6 +38,10 @@ public class Calculadora {
 
              System.out.printf("%.2f",Calculo.divisao(numero1,numero2));
 
+         } else {
+
+             System.out.println("operador invalido");
+
          }
 
          System.out.println("\np para parar \nc para continuar");
