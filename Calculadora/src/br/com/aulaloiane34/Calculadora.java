@@ -60,30 +60,6 @@ public class Calculadora {
        }
        while (verificadora);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    }
-
-
-
-
+   
 }
