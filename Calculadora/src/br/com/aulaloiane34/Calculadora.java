@@ -10,7 +10,7 @@ public class Calculadora {
 
        Scanner texto = new Scanner(System.in);
        Operadores Operadores = new Operadores('+','-','/','*');
-       char indice;
+       char operadorLogico;
        boolean verificadora = true;
        double numero1, numero2;
         
@@ -18,32 +18,32 @@ public class Calculadora {
        do {
            
          numero1 = texto.nextDouble();
-         indice = texto.next().charAt(0);
+         operadorLogico = texto.next().charAt(0);
          numero2 = texto.nextDouble();
 
          
-         if (indice == Operadores.adcao()){
+         if (operadorLogico == Operadores.adcao()){
              
              System.out.println(Calculo.soma(numero1,numero2));
              
-         } else if (indice == Operadores.subtracao()) {
+         } else if (operadorLogico == Operadores.subtracao()) {
              
              System.out.println(Calculo.subtracao(numero1,numero2));
              
-         } else if (indice == Operadores.multiplicacao()) {
+         } else if (operadorLogico == Operadores.multiplicacao()) {
 
              System.out.println(Calculo.multiplicacao(numero1,numero2)); 
              
-         } else if (indice == Operadores.divisao()) {
+         } else if (operadorLogico == Operadores.divisao()) {
 
              System.out.printf("%.2f",Calculo.divisao(numero1,numero2));
 
          }
 
          System.out.println("\np para parar \nc para continuar");
-         indice = texto.next().charAt(0);
+         operadorLogico = texto.next().charAt(0);
 
-             switch (indice) {
+             switch (operadorLogico) {
 
                case 'p' -> verificadora = false;
 
