@@ -29,6 +29,4 @@ public final class Operadores {
         return multiplicacao;
     }
 
-
-
 }
