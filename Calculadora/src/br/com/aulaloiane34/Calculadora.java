@@ -42,8 +42,8 @@ public class Calculadora {
 
          }
 
-              System.out.println("p para parar \nc para continuar");
-              indice = texto.next().charAt(0);
+         System.out.println("p para parar \nc para continuar");
+         indice = texto.next().charAt(0);
 
              switch (indice) {
 
@@ -53,7 +53,6 @@ public class Calculadora {
                case 'c' -> {
                    verificadora = true;
                }
-
          }
 
 
