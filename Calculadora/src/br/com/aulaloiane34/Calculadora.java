@@ -17,7 +17,7 @@ public class Calculadora {
 
        do {
 
-         System.out.println(" insira os numeros e o operador um em baixo do outro nessa orde  : (0+0) !");
+         System.out.println("insira os numeros e o operador um em baixo do outro nessa orde  : (0+0) !");
          numero1 = texto.nextDouble();
          operadorLogico = texto.next().charAt(0);
          numero2 = texto.nextDouble();
