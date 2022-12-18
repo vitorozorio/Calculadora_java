@@ -1,5 +1,5 @@
 package br.com.aulaloiane34;
-import br.com.aulaloiane34.logica.Logica;
+import br.com.aulaloiane34.logica.Operadores;
 import br.com.aulaloiane34.calc.Calculo;
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Calculadora {
 
        Scanner texto = new Scanner(System.in);
        Calculo Calcular = new Calculo(0,0,0);
-       Logica Logica = new Logica('+','-','/','*');
+       Operadores Operadores = new Operadores('+','-','/','*');
        char indice;
        boolean verificadora = true;
        double numero1, numero2;
@@ -24,19 +24,19 @@ public class Calculadora {
          numero2 = texto.nextDouble();
          Calcular.setNum2(numero2);
          
-         if (indice == Logica.getAdcao()){
+         if (indice == Operadores.getAdcao()){
              
              System.out.println(Calculo.soma(numero1,numero2));
              
-         } else if (indice == Logica.getSubtracao()) {
+         } else if (indice == Operadores.getSubtracao()) {
              
              System.out.println(Calculo.subtracao(numero1,numero2));
              
-         } else if (indice == Logica.getMultiplicacao()) {
+         } else if (indice == Operadores.getMultiplicacao()) {
 
              System.out.println(Calculo.multiplicacao(numero1,numero2)); 
              
-         } else if (indice == Logica.getDivisao()) {
+         } else if (indice == Operadores.getDivisao()) {
 
              System.out.println(Calculo.divisao(numero1,numero2));
 
@@ -61,5 +61,5 @@ public class Calculadora {
        while (verificadora);
 
    }
-   
+
 }

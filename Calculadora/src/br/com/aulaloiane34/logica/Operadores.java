@@ -1,6 +1,6 @@
 package br.com.aulaloiane34.logica;
 
-public class Logica {
+public class Operadores {
 
     private char adcao;
     private char subtracao;
@@ -8,7 +8,7 @@ public class Logica {
     private char multiplicacao;
 
 
-    public Logica(char adcao, char subtracao, char divisao, char multiplicacao ) {
+    public Operadores(char adcao, char subtracao, char divisao, char multiplicacao ) {
         this.adcao = adcao;
         this.subtracao = subtracao;
         this.divisao = divisao;
