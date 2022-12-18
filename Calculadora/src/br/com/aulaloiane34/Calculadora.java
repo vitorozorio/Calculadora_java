@@ -1,6 +1,6 @@
 package br.com.aulaloiane34;
 import br.com.aulaloiane34.operadores.logicos.Operadores;
-import br.com.aulaloiane34.calc.Calculo;
+import br.com.aulaloiane34.metodosDeCalculo.Calculo;
 import java.util.Scanner;
 
 

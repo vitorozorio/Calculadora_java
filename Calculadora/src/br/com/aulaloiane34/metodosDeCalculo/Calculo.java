@@ -1,4 +1,4 @@
-package br.com.aulaloiane34.calc;
+package br.com.aulaloiane34.metodosDeCalculo;
 
 
 public class Calculo {
